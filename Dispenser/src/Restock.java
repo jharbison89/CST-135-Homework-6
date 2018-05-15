@@ -1,13 +1,16 @@
 
-public class Restock {
+public class Restock{
 	
 	private final int LOW_INVENTORY = 3;
 	private double totalCost;
-	
+		
 	public Restock() {
 		totalCost = 0;
 		
 	}
+	
+
+	
 	
 	
 	// returns restocking list with a dispenser input
@@ -65,5 +68,4 @@ public class Restock {
 		return output;
 	}
 	
-
 }
